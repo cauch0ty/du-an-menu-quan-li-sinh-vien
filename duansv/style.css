@@ -1,0 +1,65 @@
+h2, h3, h4{
+	text-align: center;
+}
+span{
+	margin-left: 50px;
+}
+button{
+	padding: 8px;
+}
+#kiemtra{
+	margin-left: 190px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+#masv{
+	margin-left: 60px;
+}
+#ten{
+	margin-left: 80px;
+}
+#lop{
+	margin-left: 116px;
+}
+#quequan{
+	margin-left: 81px;
+}
+#ngaysinh{
+	margin-left: 77px;
+}
+#diachi{
+	margin-left: 95px;
+}#nam{
+	margin-left: 80px;
+}
+#reset
+{
+	padding: 8px;
+}
+table{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#dmh1
+{
+	margin-left: 32px;
+}
+#dmh2
+{
+	margin-left: 32px;
+}
+#dmh3
+{
+	margin-left: 32px;
+}
+.modau{
+	font-size: 20px;
+	margin-left: 400px;
+	color: #0040FF;
+}
+#table1{
+	margin-left: 200px;
+	padding: 5px;
+	background-color: #2EFEF7;
+	margin-bottom: 50px;
+}

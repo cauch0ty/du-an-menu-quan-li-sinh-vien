@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dự án sinh viên</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="duansv2()">
+		<form>		
+	<div class="container">
+		<div>
+			<span class="modau">GIỚI THIỆU DỰ ÁN</span><br>
+			<span class="modau">LỚP: LT0820C	</span><br>
+			<span class="modau">GIẢNG VIÊN: NGUYỄN SĨ THIỆU</span><br>
+			<p style="font-size: 20px; margin-left: 200px;">Thành viên nhóm:</p>
+			<table border="1" c style="height: 250px; width: 500px;" id="table1">
+				<tr>
+					<td>THÀNH VIÊN</td>
+					<td>CÔNG VIỆC</td>
+				</tr>
+				<tr>
+					<td>Giang Ngọc Hải</td>
+					<td>Code C</td>
+				</tr>
+				<tr>
+					<td>Phùng Văn Quyết</td>
+					<td>Tester</td>
+				</tr>
+				<tr>
+					<td>Đặng Việt Thắng</td>
+					<td>HTML</td>
+				</tr>
+				<tr>
+					<td>Nguyễn Văn Hòa</td>
+					<td>Tài liệu</td>
+				</tr>
+				<tr>
+					<td>Đỗ Đức Đạo</td>
+					<td>Designer</td>
+				</tr>
+				<tr>
+					<td>Doãn Đức Tân</td>
+					<td>Tester</td>
+				</tr>
+				<tr>
+					<td>Trần Ngọc Sơn</td>
+					<td>Designer</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="batle"></div>
+		<div class="row">
+			<div class="col-md-3" style="border: 1px solid #848484; width: 500px; margin-left: 200px; margin-bottom: 50px;">
+				<div class="form-group"><h2>CHƯƠNG TRÌNH QUẢN LÝ HỌC VIÊN</h2></div>
+				<h4>NHẬP THÔNG TIN</h4>
+				<span class="ac1" id="canhbao"></span>
+				<div class="form-group">
+					<div class="form-group">
+					<span>Mã sinh viên:</span>
+					<input type="text" id="masv" name="">
+				</div>
+					<span>Họ và tên:</span>
+					<input type="text" id="ten"  name="">
+				</div>
+				<div class="form-group">
+					<div class="form-row">
+					<span>Lớp:</span>
+						<input type="text" id="lop"  name=""></div>
+				</div>
+				<div class="form-group">
+					<span>Quê quán:</span>
+					<input type="text" id="quequan" name="">
+				</div>
+				<div class="form-group">
+					<span>Ngày sinh:</span>
+					<input type="date" id="ngaysinh" name="">
+				</div>
+				<div class="form-group">
+					<span>Địa chỉ:</span>
+					<input type="text" id="diachi" name="">
+				</div>
+
+				<div class="form-group">
+					<div class="form-row">
+						<span>Giới tính:</span>
+							<input type="radio" value="Nam" id="nam" name="gioitinh"> Nam
+							<input type="radio" value="Nữ" id="nu" name="gioitinh">  Nữ
+					</div>
+				</div>
+								<div class="form-group">
+					<span>Điểm môn học 1:</span>
+					<input type="number" id="dmh1" name="">
+				</div>
+					<div class="form-group">
+					<span>Điểm môn học 2:</span>
+					<input type="number" id="dmh2" name="">
+				</div>
+					<div class="form-group">
+					<span>Điểm môn học 3:</span>
+					<input type="number" id="dmh3" name="">
+				</div>
+			<div class="form-group">
+					<div class="form-row">
+						<div class="col-5"></div>
+						<div class="col-7"><button id="kiemtra" onclick="duansv1()" >Kiểm Tra</button><input type="reset" id="reset" name="" value="Reset"></input></div>
+								
+					</div>
+				</div>
+				</form>
+
+			</div>
+			<div class="col-md-1"></div>
+			<div id="acc1" class="col-md-8" style="border: 1px solid #848484; width: 1000px; margin-left: 100px; ">
+				<h3>THÔNG TIN HỌC VIÊN</h3>
+				<div>
+					<table id="abc" cellspacing="0" border="1px" style="width: 1000px;">
+						
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)"></script> 
+<script type="text/javascript" src="script.js.js"></script>
+</body>
+</html>
